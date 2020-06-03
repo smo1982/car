@@ -12,14 +12,15 @@ namespace CarsApp
             bool run = true;
             while (run)
             {
-                Write("Was möchten sie machen?(1 = Auto eingeben, 2 = zeig alle Autos, 3 = Beenden)");
+                Write("Was möchten sie machen?(1 = Auto eingeben, 2 = zeig alle Autos, 3 = Beenden )");
                 int select = ReadInt();
                 if (select == 2)
                 {
                     foreach (Car oneCar in cars)
                     {
-                        Console.WriteLine(oneCar.ToString);
-
+                        Console.WriteLine(oneCar.ToString());
+                        run = false;
+                        break;
                     }
                 }
                 Write("Welchen Autotyp wünschen Sie?(1 = Sportauto, 2 = Standardauto)Bitte Zahl eingeben:");
@@ -40,12 +41,12 @@ namespace CarsApp
                 Write("Ihr Auto:" + carType + " " + carName + " " + carBrand + " " + carConstructionYear + " " + carColor);
                 if (type == 1)
                 {
-                    Sportcar sportcar = new Sportcar();
+                    Sportcar sportcar = new Sportcar(carName, carBrand, carConstructionYear, carColor);
                     cars.Add(sportcar);
                 }
                 else if (type == 2)
                 {
-                    Car car = new Car(carName, carType, carBrand, carConstructionYear, carColor);
+                    Car car = new Car(carName, carBrand, carConstructionYear, carColor);
                     cars.Add(car);
                 }
                 

@@ -12,10 +12,10 @@ namespace CarsApp.moodle
         public int ConstructionYear { get; set; }
         public string Color { get; set; }
 
-        public Car(string name, CarTypes type, string brand, int constructionYear, string color)
+        public Car(string name, string brand, int constructionYear, string color)
         {
             Name = name;
-            Type = type;
+            Type = CarTypes.Normalcar;
             Brand = brand;
             ConstructionYear = constructionYear;
             Color = color;
