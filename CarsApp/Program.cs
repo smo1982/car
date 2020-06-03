@@ -19,9 +19,13 @@ namespace CarsApp
                     foreach (Car oneCar in cars)
                     {
                         Console.WriteLine(oneCar.ToString());
-                        run = false;
-                        break;
                     }
+                    break;
+                }
+                if (select == 3)
+                {
+                    run = false;
+                    break;
                 }
                 Write("Welchen Autotyp wünschen Sie?(1 = Sportauto, 2 = Standardauto)Bitte Zahl eingeben:");
                 int type = ReadInt();
@@ -38,7 +42,7 @@ namespace CarsApp
                 int carConstructionYear = ReadInt();
                 Write("Welche Farbe hat das Auto?");
                 string carColor = Read();
-                Write("Ihr Auto:" + carType + " " + carName + " " + carBrand + " " + carConstructionYear + " " + carColor);
+                Write($"Ihr Auto: {carType} {carName} {carBrand} {carConstructionYear} {carColor}");
                 if (type == 1)
                 {
                     Sportcar sportcar = new Sportcar(carName, carBrand, carConstructionYear, carColor);
