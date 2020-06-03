@@ -1,0 +1,13 @@
+C:\Users\DCV\source\repos\CarsApp\CarsApp\bin\Debug\netcoreapp3.1\CarsApp.exe
+C:\Users\DCV\source\repos\CarsApp\CarsApp\bin\Debug\netcoreapp3.1\CarsApp.deps.json
+C:\Users\DCV\source\repos\CarsApp\CarsApp\bin\Debug\netcoreapp3.1\CarsApp.runtimeconfig.json
+C:\Users\DCV\source\repos\CarsApp\CarsApp\bin\Debug\netcoreapp3.1\CarsApp.runtimeconfig.dev.json
+C:\Users\DCV\source\repos\CarsApp\CarsApp\bin\Debug\netcoreapp3.1\CarsApp.dll
+C:\Users\DCV\source\repos\CarsApp\CarsApp\bin\Debug\netcoreapp3.1\CarsApp.pdb
+C:\Users\DCV\source\repos\CarsApp\CarsApp\obj\Debug\netcoreapp3.1\CarsApp.csprojAssemblyReference.cache
+C:\Users\DCV\source\repos\CarsApp\CarsApp\obj\Debug\netcoreapp3.1\CarsApp.AssemblyInfoInputs.cache
+C:\Users\DCV\source\repos\CarsApp\CarsApp\obj\Debug\netcoreapp3.1\CarsApp.AssemblyInfo.cs
+C:\Users\DCV\source\repos\CarsApp\CarsApp\obj\Debug\netcoreapp3.1\CarsApp.csproj.CoreCompileInputs.cache
+C:\Users\DCV\source\repos\CarsApp\CarsApp\obj\Debug\netcoreapp3.1\CarsApp.dll
+C:\Users\DCV\source\repos\CarsApp\CarsApp\obj\Debug\netcoreapp3.1\CarsApp.pdb
+C:\Users\DCV\source\repos\CarsApp\CarsApp\obj\Debug\netcoreapp3.1\CarsApp.genruntimeconfig.cache
